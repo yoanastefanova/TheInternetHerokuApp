@@ -8,7 +8,7 @@ import utils.CookieManager;
 public class CookiesTests extends BaseTests {
 
   @Test
-  public void removeAndCheckCookies(){
+  public void removeAndCheckCookies() {
     CookieManager cookieManager = getCookieManager();
     Cookie cookie = cookieManager.buildCookie("optimizelyBuckets1", "%7B%TD");
     cookieManager.addCookie(cookie);
